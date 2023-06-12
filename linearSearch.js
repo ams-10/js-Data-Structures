@@ -7,6 +7,9 @@ function search(arr ,x){
             console.log(arr[i]+" "+i);
             break;
         }
+        else{
+            console.log("element not found")
+        }
 }
 }
 search(arr ,x);
