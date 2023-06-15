@@ -7,7 +7,6 @@ function BinarySort(arr, high, low, x){
     var mid = ((high + low) / 2);
     console.log("mid value : " +mid);
     mid = Math.floor(mid);
-    if(high>low){
         if(arr[mid]===x){
             return mid;
         }
@@ -15,9 +14,8 @@ function BinarySort(arr, high, low, x){
             return BinarySort(arr, mid+1, high, x);
         }
         else if(arr[mid] > x){
-            return BinarySort(arr, low, mid-1, x);4
-        }
-    }
+            return BinarySort(arr, low, mid-1, x);
+}
     else{
         console.log("target value not present in array");
     }
