@@ -1,5 +1,5 @@
 //program to demonstrate binary sort
-let arr = [10, 48, 99, 73, 94, 44, 13, 45];
+let arr = [10, 12, 16, 19, 24, 45, 34, 92];
 let high = arr.length;
 let low = 0;
 
